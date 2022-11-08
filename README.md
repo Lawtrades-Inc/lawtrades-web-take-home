@@ -1,7 +1,7 @@
 # lt-take-home
 
 ## Project Directions
-1. Your list is to take a list of job postings/ job opportunities and then display it nicely.
+1. Your task is to take a list of job postings/ job opportunities and then display it nicely.
 2. Here are the public APIs that are available for you to use:
 ```
 https://lawtrades-be.herokuapp.com/v1/public/positions?status=Publish&page=0&limit=21&talentType[]=attorney&seniority[]=Senior&employmentType[]=Full-Time+%2F+Contract&minPayout=100&maxPayout=400
@@ -27,10 +27,10 @@ Packages and libraries that you think are appropriate are all fair game. We have
 
 Walk us through the code and explain to us your choices. What types of tradeoffs did you make? If you had more time, what would you have done differently?
 
-1. When you are finished, please share your github privately to the Lawtrades Team. We will then schedule some time to go over the project with you
+1. When you are finished, please share your github privately to the Lawtrades Team. We will then schedule some time to go over the project with you.
 2. Your project should be able to run by using 'yarn dev'. Please add documentation where appropriate.
-3. The node version we are using is v16.17.0
-4. Please use the instructions below to install and run the app
+3. The node version we are using is v16.17.0.
+4. Please use the instructions below to install and run the app.
 
 ## Build Setup
 
