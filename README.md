@@ -4,7 +4,11 @@
 1. Your list is to take a list of job postings/ job opportunities and then display it nicely.
 2. Here are the public APIs that are available for you to use:
 ```
-http://localhost:1337/v1/public/positions?status=Publish&page=0&limit=21&talentType[]=attorney&seniority[]=Senior&employmentType[]=Full-Time+%2F+Contract&minPayout=100&maxPayout=400
+https://lawtrades-be.herokuapp.com/v1/public/positions?status=Publish&page=0&limit=21&talentType[]=attorney&seniority[]=Senior&employmentType[]=Full-Time+%2F+Contract&minPayout=100&maxPayout=400
+
+This is the simplest call, without pagination, that returns all positions published:
+https://lawtrades-be.herokuapp.com/v1/public/positions?status=Publish
+
 1. Notice that the above has the following options for when you are fetching the list of opportunities:
 a. talentType filter, which can be one of the following: attorney, paralegal, legalOperations, compliance, administrator, and contractManager
 b. seniority, which can be one of the following: junior, midLevel, senior
@@ -13,8 +17,8 @@ d. employmentType, which can be one of the following: fullTime, partTime, contra
 ```
 3. Each opportunity listed should be in a card-like format. It should have the title, description, and highlight the salary_rate, and whether or not it is part-time, etc..
 4. Extra --- If you have time:
-a. Make the site mobile responsive 
-b. Add the ability to filter by seniority or talentTypes.
+*  Make the site mobile responsive 
+*  Add the ability to filter by seniority or talentTypes.
 5. UI is important, but please focus more on completion and clean-coding over designs (this should be the last step of your work).
 
 NOTE : PLEASE LIMIT YOURSELF TO NO MORE THAN 5 hours on this project. It should not take you that long and we don't want you to spend too much time on this project.
@@ -23,11 +27,10 @@ Packages and libraries that you think are appropriate are all fair game. We have
 
 Walk us through the code and explain to us your choices. What types of tradeoffs did you make? If you had more time, what would you have done differently?
 
-
-
 1. When you are finished, please share your github privately to the Lawtrades Team. We will then schedule some time to go over the project with you
 2. Your project should be able to run by using 'yarn dev'. Please add documentation where appropriate.
 3. The node version we are using is v16.17.0
+4. Please use the instructions below to install and run the app
 
 ## Build Setup
 
